@@ -1,0 +1,24 @@
+{
+  "name": "img-reduce",
+  "version": "1.0.0",
+  "description": "App para optimizar imagenes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "artesanaBal",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-webp": "^8.0.0"
+  }
+}
